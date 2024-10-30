@@ -1,6 +1,6 @@
 # AdventOfGIS - with NorKart
+![kart nordpolen](kart_nordpolen.png)
 ## Challenge Description
-
 Today, Santa is preparing for further planning, as Rudolf keeps pushing for snack breaks and the sleigh urgently needs reliable landing areas! To avoid certain areas, like major roads and forests, Santa needs more detailed map data on his "SleighPad." However, loading all spatial data as GeoJSON is too much, and it crashes the device. To make this map user-friendly and performant, a **background map** is essential for Santa's web map.
 
 One popular approach in web mapping is to use **tile services**, specifically with the XYZ standard. These "tile caches" contain pre-rendered images organized by zoom levels, making it easy to create maps that handle large data. A common projection for web maps is **Web Mercator**, and the images are split by zoom level, creating billions of small tiles.
