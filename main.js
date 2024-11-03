@@ -4,7 +4,7 @@ var map = L.map("mapid").setView([58.14615, 7.99573], 13);
 const apiKey = "1329BF1A-2707-4D3A-BEC2-2B4EF282F969";
 
 L.tileLayer(
-    `https://waapi.webatlas.no/maptiles/tiles/webatlas-standard-vektor/wa_grid/{z}/{x}/{y}.png?APITOKEN=${apiKey}`,
+    `https://waapi.webatlas.no/maptiles/tiles/webatlas-orto-newup/wa_grid/{z}/{x}/{y}.jpeg?APITOKEN=${apiKey}`,
     {}
 ).addTo(map);
 
@@ -51,7 +51,6 @@ L.tileLayer(
         })
         .catch(error => console.error('Kunne ikke laste GeoJSON-data:', error));
 
-/*
         // Variabel for å lagre brukerens posisjon-marker
         let userMarker = null;
 
@@ -81,4 +80,3 @@ L.tileLayer(
         } else {
             console.error("Geolokasjon støttes ikke av denne nettleseren.");
         }
-*/
